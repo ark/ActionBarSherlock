@@ -16,6 +16,11 @@ gen
 classes
 gen-external-apklibs
 
+# Gradle
+
+.gradle
+build
+
 #Maven
 target
 release.properties
