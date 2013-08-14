@@ -2,12 +2,12 @@ apply plugin: 'android-library'
 apply plugin: 'maven-publish'
 
 dependencies {
-  compile 'com.android.support:support-v4:13.0.0'
+  compile 'com.android.support:support-v4:18.0.+'
 }
 
 android {
-  compileSdkVersion 17
-  buildToolsVersion '17.0.0'
+  compileSdkVersion 18
+  buildToolsVersion '18.0.1'
 
   sourceSets {
     main {
